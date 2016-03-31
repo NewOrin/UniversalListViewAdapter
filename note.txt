@@ -1,0 +1,8 @@
+通用的ViewHolder类
+convertView.setTag(holder);
+ViewHolder: Item各种控件的引用
+
+Map<int,View>//存放控件 Map效率不高，SparseArray效率更高
+
+getView(int id);//获取控件
+
